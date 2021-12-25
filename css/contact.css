@@ -1,0 +1,150 @@
+.header_nav_tree{
+    margin-top: 30px;
+}
+.nav_tree{
+    display: flex;
+    list-style: none;
+}
+.nav_tree a{
+    font-size: 15px;
+    line-height: 15px;
+    color: gray;
+    text-decoration: none;
+}
+.nav_tree li{
+    margin-right: 10px;
+    list-style-type: none;
+}
+.nav_tree li:last-child a{
+    color: black;
+}
+.main{
+    width: 80%;
+    margin: 0 auto;
+}
+.contact_container h2{
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 31px;
+    line-height: 42px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.subtext{
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+}
+.contact_text{
+    font-family: montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+.contact_block{
+    margin-bottom: 20px;
+}
+.contact_form input{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #d0d0d0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.contact_form input::placeholder{
+    padding-left: 20px;
+}
+.contact_form h3{
+    text-align: center;
+    font-family: montserrat;
+    padding-top: 40px;
+}
+form{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 370px;
+    height: 325px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.contact_form button{
+    background: #dd4053;
+    border-radius: 2px;
+    width: 370px;
+    height: 60px;
+    color: white;
+    text-align: center;
+    font-family: bold;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'montserrat';
+    border: 0;
+}
+.contact_info{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.team{
+    margin-bottom: 30px;
+}
+.team_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.team_card_zone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.team_card{
+    display: flex;
+    margin-top: 40px;
+}
+.card_text{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card_header h4{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    color: #323232;
+}
+.card_header p{
+    font-size: 16px;
+    line-height: 22px;
+    color: #323232;
+}
+@media screen and (max-width: 1200px){
+    haeder{
+        display: none;
+    }
+    .container{    
+        max-width: 90%;
+    }
+    .contact_form{    
+    width: 375px; 
+    }
+    .team_list li{    
+    margin-left: 30px;
+    }
+    .team_card{
+        width: 100%;
+        justify-content: center;
+    }
+}
